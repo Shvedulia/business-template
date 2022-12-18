@@ -1,0 +1,118 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.hui{
+  display: inline-block ;
+  width: 350px;
+  padding: 40px 20px;
+}
+
+.corner{
+  color: rgb(75, 174, 196);
+  font-size: 1.20em;
+}
+
+header{
+background-image: url(headerback.jpg);
+padding: 0px 50px;
+}
+
+nav{
+  background-color: rgb(75, 174, 196);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style: none;
+}
+
+.menu {
+  list-style: none;
+  font-size: 20px;
+}
+
+.menu li {
+  display: inline-block;
+  width: 12%;
+  text-align: center;
+  font-family:  Arial, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.menu li a {
+  color: white;
+  font-size: 18px;
+  display: block;
+  padding: 10px 2px;
+}
+
+.menu li a:hover {
+  background: rgb(39, 205, 116);
+}
+
+section{
+  background-image: url(middleback.jpg);
+  background-repeat: no-repeat;
+  padding: 30px 0px 50px 30px;
+}
+
+.text{
+  color:rgb(75, 174, 196);
+  font-size: 1.7em;
+  margin-bottom: 20px;
+}
+
+.links {
+  width: 30%;
+  display: inline-block;
+  padding: 10px;
+  vertical-align: top;
+
+}
+
+.fontblue{
+  color:rgb(75, 174, 196) ;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.lowmenu {
+border-bottom: 2px dotted gray ;
+padding-bottom: 4px;
+margin-bottom: 8px;
+font-family:Arial, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.paragraph{
+  padding-right: 550px;
+  margin-bottom: 20px;
+}
+
+.footr{
+  display: inline-block;
+  border-top: dotted 2px ;
+  margin-top: 40px;
+  padding: 30px 10px ;
+}
+
+.footr li{
+  display: inline-block;
+  border-right: solid 2px gray;
+  width: 12%;
+  text-align: center;
+  font-family:  Arial, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.footr li:last-child {
+  border: none;
+}
